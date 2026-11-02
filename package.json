@@ -1,0 +1,14 @@
+{
+  "name": "fixsaathi",
+  "version": "1.0.0",
+  "description": "FixSaathi – AI-Powered Repair History & Service Management Platform",
+  "scripts": {
+    "start:backend": "node backend/server.js",
+    "start:frontend": "cd frontend && npm.cmd run dev",
+    "build": "cd frontend && npm.cmd run build",
+    "test:sarvam": "python main.py"
+  },
+  "keywords": ["fixsaathi", "sarvam-ai", "repair-history", "iot", "appliances", "speech-to-text", "indic-languages"],
+  "author": "FixSaathi Team",
+  "license": "MIT"
+}
